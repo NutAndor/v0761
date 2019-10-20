@@ -1,0 +1,42 @@
+[
+    {
+        "id":"ff_captain_guild02_1",
+        "message":"What? I haven't been informed of that. Since you seem like an inexperienced kid, I don't believe you.",
+        "replies":[
+            {
+                "text":"Ergh ... Mr Laumwill is grateful for your protection. However ... Ah! He has given this reward of 1000 gold for your efforts.",
+                "nextPhraseID":"ff_captain_guild02_2a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1000
+                    }
+                ]
+            },
+            {
+                "text":"Trust me, I'm the one that delivered those swords from Gandoren to you!",
+                "nextPhraseID":"ff_captain_guild02_2b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_shipment",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "text":"(I would like to bribe the captain, but I need at least 1000 Gold) I will come back later.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1000,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]
