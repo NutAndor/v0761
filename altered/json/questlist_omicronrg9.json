@@ -1,0 +1,68 @@
+[
+    {
+        "id":"Thieves01",
+        "name":"Thief apprentice",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":5,
+                "logText":"After giving him the key of Luthor and talking with Umar about Andor, I needed to ask him about Thieves' Guild itself.\nI want to join them to see what kind of jobs they do."
+            },
+            {
+                "progress":10,
+                "logText":"Umar told me to talk with Troublemaker regarding my first task for the Guild."
+            },
+            {
+                "progress":15,
+                "logText":"Troublemaker told me to bring him three journals from spies of the guild. First I have to talk with Leta in my village, then with Dunla in Vilegard's tavern, and finally with Fanamor somewhere around Crossroads guardhouse."
+            },
+            {
+                "progress":20,
+                "logText":"I have to remember to tell them the password \"You are no one. No one knows you. No one has seen you.\""
+            },
+            {
+                "progress":25,
+                "logText":"Leta gave me her journal and advised me to not raise suspicion.",
+                "rewardExperience":250
+            },
+            {
+                "progress":30,
+                "logText":"I got Dunla's journal without any problem. I have set out to get the last journal.",
+                "rewardExperience":650
+            },
+            {
+                "progress":35,
+                "logText":"Fanamor gave me her journal."
+            },
+            {
+                "progress":40,
+                "logText":"Fanamor has been gravely wounded, and the Feygard Scout grabbed the journal.",
+                "rewardExperience":150
+            },
+            {
+                "progress":45,
+                "logText":"After I had killed the Feygard scout I talked again with Fanamor. She's losing blood quickly, so I have to bring her a bandage. I need to find a trustworthy priest.",
+                "rewardExperience":750
+            },
+            {
+                "progress":50,
+                "logText":"Thoronir gave me a bandage. I have to return to Fanamor as soon as possible."
+            },
+            {
+                "progress":51,
+                "logText":"Unfortunately, I was not able to save Fanamor's life. However, I did get her journal."
+            },
+            {
+                "progress":55,
+                "logText":"Fanamor is alive and will find her own way to return.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":60,
+                "logText":"I returned to Troublemaker and gave him the journals. He told me to talk with Umar, maybe he has another task for me.",
+                "rewardExperience":1750,
+                "finishesQuest":1
+            }
+        ]
+    }
+]
